@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "156680881149",
+    "firebase_url": "https://teachvocabulary-4dac3.firebaseio.com",
+    "project_id": "teachvocabulary-4dac3",
+    "storage_bucket": "teachvocabulary-4dac3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156680881149:android:cf7374296e19e3d9",
+        "android_client_info": {
+          "package_name": "com.aimtechltd.teachvocabulary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156680881149-ree2p8phg0uqkps219mmc05ur65lp3mj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aimtechltd.teachvocabulary",
+            "certificate_hash": "a65a075a05effd7ff82a98062c3db2c4322d2770"
+          }
+        },
+        {
+          "client_id": "156680881149-rquja0q8bi91rthtiis3fp790uk4r4pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPdFfRQeADt8MPii1h_VsiWRws-UFh1Ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156680881149-rquja0q8bi91rthtiis3fp790uk4r4pm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156680881149:android:2ca578beccc0c7e7",
+        "android_client_info": {
+          "package_name": "com.dreammaker.mahdi.teachvocabulary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156680881149-3gutqbpj1q0l83gn7l2eesu5ofi5ood7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dreammaker.mahdi.teachvocabulary",
+            "certificate_hash": "00f916697e82bca40fff427092a26dca70721fac"
+          }
+        },
+        {
+          "client_id": "156680881149-rquja0q8bi91rthtiis3fp790uk4r4pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPdFfRQeADt8MPii1h_VsiWRws-UFh1Ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156680881149-rquja0q8bi91rthtiis3fp790uk4r4pm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-7291069729871905~5515608187"
+    }
+  ],
+  "configuration_version": "1"
+}
