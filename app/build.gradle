@@ -5,7 +5,7 @@ apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.aimtechltd.teachvocabulary"
+        applicationId "com.techmahdi.teachvocabulary"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode 1

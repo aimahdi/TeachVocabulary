@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "156680881149",
+    "firebase_url": "https://teachvocabulary-4dac3.firebaseio.com",
+    "project_id": "teachvocabulary-4dac3",
+    "storage_bucket": "teachvocabulary-4dac3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156680881149:android:b8137defc4facebfaf4f94",
+        "android_client_info": {
+          "package_name": "com.techmahdi.teachvocabulary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156680881149-4etfjc3aaitipapn0tgmad8oo829mnj1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techmahdi.teachvocabulary",
+            "certificate_hash": "af452be44e48e38010ab4e350ba723981c83063c"
+          }
+        },
+        {
+          "client_id": "156680881149-rquja0q8bi91rthtiis3fp790uk4r4pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPdFfRQeADt8MPii1h_VsiWRws-UFh1Ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156680881149-rquja0q8bi91rthtiis3fp790uk4r4pm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
