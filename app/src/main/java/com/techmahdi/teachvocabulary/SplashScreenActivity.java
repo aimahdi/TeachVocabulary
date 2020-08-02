@@ -1,4 +1,4 @@
-package com.aimtechltd.teachvocabulary;
+package com.techmahdi.teachvocabulary;
 
 import android.content.Intent;
 import android.os.Handler;

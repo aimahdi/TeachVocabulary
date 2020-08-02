@@ -1,4 +1,4 @@
-package com.aimtechltd.teachvocabulary;
+package com.techmahdi.teachvocabulary;
 
 import org.junit.Test;
 

@@ -7,7 +7,7 @@
     android:background="@drawable/main_background"
     android:orientation="vertical"
     android:weightSum="10"
-    tools:context="com.aimtechltd.teachvocabulary.MainActivity">
+    tools:context="com.techmahdi.teachvocabulary.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/main_background"
     android:orientation="vertical"
-    tools:context="com.aimtechltd.teachvocabulary.RankListActivity">
+    tools:context="com.techmahdi.teachvocabulary.RankListActivity">
 
     <View
         android:layout_width="match_parent"

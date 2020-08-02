@@ -1,4 +1,4 @@
-package com.aimtechltd.teachvocabulary;
+package com.techmahdi.teachvocabulary;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;

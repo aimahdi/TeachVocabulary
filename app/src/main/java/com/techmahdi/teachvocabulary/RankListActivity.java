@@ -1,4 +1,4 @@
-package com.aimtechltd.teachvocabulary;
+package com.techmahdi.teachvocabulary;
 
 import android.os.Bundle;
 import android.view.View;

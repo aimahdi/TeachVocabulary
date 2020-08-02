@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aimtechltd.teachvocabulary">
+    package="com.techmahdi.teachvocabulary">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -16,32 +16,32 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
 
-        <activity android:name="com.aimtechltd.teachvocabulary.SplashScreenActivity">
+        <activity android:name="com.techmahdi.teachvocabulary.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.aimtechltd.teachvocabulary.MainActivity">
+        <activity android:name="com.techmahdi.teachvocabulary.MainActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
             </intent-filter>
 
         </activity>
-        <activity android:name="com.aimtechltd.teachvocabulary.SignInActivity"></activity>
-        <activity android:name="com.aimtechltd.teachvocabulary.SignUpActivity" />
+        <activity android:name="com.techmahdi.teachvocabulary.SignInActivity"></activity>
+        <activity android:name="com.techmahdi.teachvocabulary.SignUpActivity" />
         <activity
-            android:name="com.aimtechltd.teachvocabulary.VocabularyGameActivity"
+            android:name="com.techmahdi.teachvocabulary.VocabularyGameActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.aimtechltd.teachvocabulary.VocabularyListActivity"
-            android:parentActivityName="com.aimtechltd.teachvocabulary.MainActivity"
+            android:name="com.techmahdi.teachvocabulary.VocabularyListActivity"
+            android:parentActivityName="com.techmahdi.teachvocabulary.MainActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.aimtechltd.teachvocabulary.RankListActivity"
-            android:parentActivityName="com.aimtechltd.teachvocabulary.MainActivity"
+            android:name="com.techmahdi.teachvocabulary.RankListActivity"
+            android:parentActivityName="com.techmahdi.teachvocabulary.MainActivity"
             android:theme="@style/AppTheme" />
     </application>
 
