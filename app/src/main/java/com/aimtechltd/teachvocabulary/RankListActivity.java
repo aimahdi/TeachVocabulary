@@ -1,12 +1,13 @@
 package com.aimtechltd.teachvocabulary;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.firebase.ui.database.FirebaseListAdapter;
 import com.firebase.ui.database.FirebaseListOptions;
 import com.google.firebase.database.FirebaseDatabase;
@@ -19,7 +20,7 @@ public class RankListActivity extends AppCompatActivity {
 
     private Query query;
 
-    private FirebaseListAdapter <Rank> firebaseListAdapter;
+    private FirebaseListAdapter<Rank> firebaseListAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,8 +39,7 @@ public class RankListActivity extends AppCompatActivity {
                 .orderByChild("score");
 
 
-
-        FirebaseListOptions <Rank> options = new FirebaseListOptions.Builder<Rank>()
+        FirebaseListOptions<Rank> options = new FirebaseListOptions.Builder<Rank>()
                 .setLayout(R.layout.custom_ranklist_layout)
                 .setQuery(query, Rank.class)
                 .build();
@@ -48,8 +48,6 @@ public class RankListActivity extends AppCompatActivity {
             @Override
             protected void populateView(@NonNull View v, @NonNull Rank model, int position) {
                 TextView name, score;
-
-                Log.e("Model", model.getFullName()+"");
 
                 name = v.findViewById(R.id.user_name_textView);
                 score = v.findViewById(R.id.user_score_textView);

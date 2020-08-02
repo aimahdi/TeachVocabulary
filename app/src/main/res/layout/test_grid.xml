@@ -67,7 +67,8 @@
                     android:textAlignment="center"
                     android:textColor="@color/colorPrimary"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -106,7 +107,8 @@
                     android:textAlignment="center"
                     android:textColor="@color/colorPrimary"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -144,7 +146,8 @@
                     android:textAlignment="center"
                     android:textColor="@color/colorPrimary"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -182,25 +185,12 @@
                     android:textAlignment="center"
                     android:textColor="@color/colorPrimary"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
     </androidx.gridlayout.widget.GridLayout>
-
-
-    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adViewMain"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-7291069729871905/5288669360"></com.google.android.gms.ads.AdView>
-
-
-
 
 </LinearLayout>

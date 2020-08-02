@@ -14,7 +14,8 @@
         android:textColor="@android:color/background_light"
         android:textSize="34dp"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal" />
 
     <TextView
         android:textSize="14sp"
@@ -23,7 +24,8 @@
         android:text="Click on the word to see details"
         android:layout_below="@id/text_view_word"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
 
 
 

@@ -3,49 +3,51 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/main_background"
     android:layout_height="match_parent"
+    android:background="@drawable/main_background"
     android:orientation="vertical"
     tools:context="com.aimtechltd.teachvocabulary.RankListActivity">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#fff"/>
+        android:background="#fff" />
 
     <LinearLayout
-        android:background="@drawable/card_background"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background">
 
         <TextView
-            android:textStyle="bold"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="7"
             android:padding="10dp"
-            android:textSize="25sp"
             android:text="User Name"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_weight="7" />
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
 
         <TextView
-            android:textStyle="bold"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:padding="10dp"
-            android:textSize="25sp"
-            android:text="Score"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:layout_weight="3" />
+            android:layout_weight="3"
+            android:padding="10dp"
+            android:text="Score"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
     </LinearLayout>
 
     <ListView
-        android:dividerHeight="3dp"
-        android:divider="@android:color/background_light"
         android:id="@+id/ranklist"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></ListView>
+        android:layout_height="wrap_content"
+        android:divider="@android:color/background_light"
+        android:dividerHeight="3dp"></ListView>
 
 </LinearLayout>

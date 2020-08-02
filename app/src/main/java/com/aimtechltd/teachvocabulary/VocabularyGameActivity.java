@@ -17,13 +17,6 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -79,10 +72,6 @@ public class VocabularyGameActivity extends AppCompatActivity implements View.On
 
     ProgressDialog pd;
 
-    private AdView mAdView;
-
-    private InterstitialAd mInterstitialAd;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -93,22 +82,6 @@ public class VocabularyGameActivity extends AppCompatActivity implements View.On
         initializeViews();
 
         initializeFirebase();
-
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
-            }
-        });
-
-
-
-        mAdView = findViewById(R.id.adViewGame);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
-
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-7291069729871905/9887525395");
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         pd = new ProgressDialog(this);
 
@@ -376,12 +349,6 @@ public class VocabularyGameActivity extends AppCompatActivity implements View.On
     private void showResultWithAnswer(String solution, int score) {
 
         check = true;
-
-        if (mInterstitialAd.isLoaded()) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAG", "The interstitial wasn't loaded yet.");
-        }
 
         AlertDialog.Builder builder = new AlertDialog.Builder(VocabularyGameActivity.this);
 

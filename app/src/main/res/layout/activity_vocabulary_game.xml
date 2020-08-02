@@ -56,7 +56,8 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
 
             <RadioGroup
                 android:id="@+id/radio_group"
@@ -104,22 +105,12 @@
         android:id="@+id/button_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/adViewGame"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:background="@drawable/btn_rounded_primary"
         android:text="Next"
         android:textColor="@color/white" />
-
-    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adViewGame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-7291069729871905/5288669360"></com.google.android.gms.ads.AdView>
 
 
 </RelativeLayout>

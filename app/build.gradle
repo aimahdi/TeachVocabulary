@@ -40,7 +40,6 @@ dependencies {
 
     api 'com.firebaseui:firebase-ui-database:4.3.1'
 
-    implementation 'com.google.android.gms:play-services-ads:18.1.0'
 }
 
 com.google.gms.googleservices.GoogleServicesPlugin.config.disableVersionCheck = true

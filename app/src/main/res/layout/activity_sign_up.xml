@@ -63,7 +63,8 @@
                     android:text="Full Name"
                     android:textAlignment="center"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
-                    android:textColor="@color/colorPrimary" />
+                    android:textColor="@color/colorPrimary"
+                    android:layout_gravity="center_horizontal" />
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/full_name_input_SU"
@@ -90,7 +91,8 @@
                     android:text="Email"
                     android:textAlignment="center"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
-                    android:textColor="@color/colorPrimary" />
+                    android:textColor="@color/colorPrimary"
+                    android:layout_gravity="center_horizontal" />
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/email_input_SU"
@@ -116,7 +118,8 @@
                     android:text="Password"
                     android:textAlignment="center"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
-                    android:textColor="@color/colorPrimary" />
+                    android:textColor="@color/colorPrimary"
+                    android:layout_gravity="center_horizontal" />
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/password_input_SU"
@@ -161,16 +164,5 @@
 
 
     </LinearLayout>
-
-    <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adViewSignUp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-7291069729871905/5288669360">
-    </com.google.android.gms.ads.AdView>
 
 </RelativeLayout>

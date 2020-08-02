@@ -35,8 +35,6 @@ public class SplashScreenActivity extends AppCompatActivity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-
-
                 while (i < 100) {
                     i += 2;
                     handler.post(new Runnable() {
